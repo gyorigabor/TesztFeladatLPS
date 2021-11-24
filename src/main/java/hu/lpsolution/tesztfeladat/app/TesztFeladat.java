@@ -30,7 +30,7 @@ public class TesztFeladat {
         Map<String, Object> modelMap = new HashMap<>();
         modelMap.put("nev_param", "Győri Gábor");
         modelMap.put("email_param", "gyorigabormail@gmail.com");
-        modelMap.put("repo_url", "http://www.youtube.com");
+        modelMap.put("repo_url", "https://github.com/gyorigabor/TesztFeladatLPS");
 
         Writer fileWriter = new FileWriter("src/main/resources/output.html");
 
